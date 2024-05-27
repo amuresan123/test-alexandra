@@ -2,10 +2,10 @@ name: Java CI with Maven
 
 on:
   workflow_dispatch:
-  # push:
-     branches: [ "Alexandratest" ]
-  # pull_request:
-     branches: [ "Alexandratest" ]
+  push:
+     branches: [ "Alexandratest", "main" ]
+  pull_request:
+     branches: [ "Alexandratest", "main" ]
 
 jobs:
   build:
