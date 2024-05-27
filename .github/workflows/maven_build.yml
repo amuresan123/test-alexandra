@@ -3,9 +3,9 @@ name: Java CI with Maven
 on:
   workflow_dispatch:
   # push:
-  #   branches: [ "master" ]
+     branches: [ "Alexandratest" ]
   # pull_request:
-  #   branches: [ "master" ]
+     branches: [ "Alexandratest" ]
 
 jobs:
   build:
