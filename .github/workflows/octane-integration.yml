@@ -26,7 +26,7 @@ jobs:
         # Config parameters for the integration
         with:
           # ALM Octane connection data
-          octaneUrl: 'https://qa8.almoctane.com/' # PMO7
+          octaneUrl: 'https://qa8.almoctane.com' # PMO7
           #octaneUrl: 'https://falcon-apt-usually.ngrok-free.app/dev'
           octaneSharedSpace: 1001
           octaneWorkspace: 43003 # PMO7: 2001
