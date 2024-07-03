@@ -25,15 +25,13 @@ jobs:
         id: gitHubActionsIntegration
         # Config parameters for the integration
         with:
-          # ALM Octane connection data
-          octaneUrl: 'https://laura-1.almoctane.com' # PMO7
+          octaneUrl: 'http://5b8779e7216b03.lhr.life/dev' # PMO7
           #octaneUrl: 'https://falcon-apt-usually.ngrok-free.app/dev'
           octaneSharedSpace: 1001
-          octaneWorkspace: 1003 # PMO7: 2001
-          #octaneClientId: Github Actions_63nlz16n2g1wriy12e8vrx0k9
-          octaneClientId: ${{secrets.ALM_OCTANE_CLIENT_ID}} # PMO7
-          #octaneClientSecret: $232172107244198220196198E
-          octaneClientSecret: ${{secrets.ALM_OCTANE_CLIENT_SECRET}} # PMO7
+          octaneWorkspace: 2001
+          octaneClientId: GitHubActions_n08xg0j8exv6jb7y0ykrqml34
+          #octaneClientId: ${{secrets.ALM_OCTANE_CLIENT_ID}} # PMO7
+          octaneClientSecret: +148528415125074138113F
           # Automatically provided GitHub token
           githubToken: ${{secrets.GITHUB_TOKEN}}
           # The url that the CI Server in ALM Octane will point to (own)
